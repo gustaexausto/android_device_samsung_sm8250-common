@@ -816,7 +816,6 @@ vendor/lib64/unnhal-acc-hvx.so
 # NFC
 vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 vendor/lib64/nfc_nci_sec.so
-vendor/lib64/libNfcProperties.so
 vendor/etc/libnfc-sec-vendor.conf
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
@@ -988,7 +987,6 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_csvt_srvc.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmi_legacy.so
-vendor/lib64/libqmiextservices.so
 vendor/lib64/libqmiservices-sem-ext.so
 vendor/lib64/libqmiservices.so
 vendor/lib64/libqsocket.so
@@ -1150,12 +1148,7 @@ vendor/lib/vendor.qti.esepowermanager@1.0.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
 
 # Secure element
-vendor/bin/hw/android.hardware.secure_element@1.0-service
--vendor/etc/init/android.hardware.secure_element@1.0-service.rc
 vendor/etc/libse-gto-hal.conf
--vendor/lib/android.hardware.secure_element@1.0-impl-gto.so
--vendor/lib64/android.hardware.secure_element@1.0-impl-gto.so
-
 # Sensors
 vendor/bin/sscrpcd
 vendor/etc/init/init.vendor.sensors.rc
@@ -1223,10 +1216,6 @@ vendor/etc/thermal-engine.conf
 vendor/lib/vendor.samsung.hardware.thermal@1.0.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
-vendor/lib/libhypervintf.so
-vendor/lib64/libhypervintf.so
-vendor/lib/vendor.samsung.hardware.hyper-V2-ndk_platform.so
-vendor/lib64/vendor.samsung.hardware.hyper-V2-ndk_platform.so
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
@@ -1315,7 +1304,6 @@ vendor/etc/hostapd/hostapd.accept
 vendor/etc/hostapd/hostapd.deny
 vendor/etc/hostapd/hostapd_default.conf
 vendor/etc/init/btcoex_cont_config.rc
-vendor/lib/libpa.so
 vendor/lib/libsnap_vndk.so
 vendor/lib/libstreamparser.so
 vendor/lib64/libdsms_vendor.so
@@ -1324,7 +1312,6 @@ vendor/lib64/libengmode2lite.so
 vendor/lib64/libengmode_server.so
 vendor/lib64/libengmode_tlc.so
 vendor/lib64/libhal.wsm.samsung.so
-vendor/lib64/libpa.so
 vendor/lib64/libsnap_compute.so
 vendor/lib64/libsnap_compute_wrapper.so
 vendor/lib64/libsnap_v1.samsung.so
