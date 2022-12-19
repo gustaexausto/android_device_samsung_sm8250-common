@@ -144,6 +144,8 @@ vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/soundfx/libswdap.so
+vendor/lib64/libspatializerparamstorage.so
+vendor/lib/libspatializerparamstorage.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -996,6 +998,7 @@ vendor/etc/init/ipacm-diag.rc
 vendor/etc/init/vendor.qti.tftp.rc
 vendor/etc/init/netmgrd.rc
 vendor/etc/init/vendor.qti.rmt_storage.rc
+vendor/lib64/libqmiservices-ext.so
 
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
@@ -1021,6 +1024,9 @@ vendor/lib/libnetmgr_common.so
 vendor/lib64/libnlnetmgr.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
+
+vendor/lib64/libSemTelephonyProps.so
+vendor/lib64/libSemDataProps.so
 
 
 vendor/etc/mtu-conf.xml
