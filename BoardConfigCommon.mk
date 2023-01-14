@@ -67,7 +67,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/sm8250
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/$(HOST_OS)-x86/clang-r416183b
+TARGET_KERNEL_CLANG_VERSION := neutron
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/neutron-clang
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
